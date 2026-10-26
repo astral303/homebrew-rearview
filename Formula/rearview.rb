@@ -3,20 +3,20 @@
 class Rearview < Formula
   desc "Browse and search Claude Code, Codex, OpenCode, Kimi, Pi and OMP history"
   homepage "https://github.com/astral303/rearview"
-  version "0.5.0"
+  version "0.6.1"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/astral303/rearview/releases/download/v0.5.0/rearview-darwin-arm64.tar.gz"
-      sha256 "c43c80a1906027d7947e8b492d053f911cf980a4790bb5d36e28220e39e85b50"
+      url "https://github.com/astral303/rearview/releases/download/v0.6.1/rearview-darwin-arm64.tar.gz"
+      sha256 "53668c350df0a66478b0e67f1537fbdeab4e85908d2f6e62c620061d7b4f7418"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/astral303/rearview/releases/download/v0.5.0/rearview-linux-amd64.tar.gz"
-      sha256 "42dcab05c57605c205c41f6b8ffdab33e79bb61533988f89face87e6a8dec8bf"
+      url "https://github.com/astral303/rearview/releases/download/v0.6.1/rearview-linux-amd64.tar.gz"
+      sha256 "59f08d8af37928dacb99665bb5079c9a533c48046fa0f5d4a26707afdc47fac9"
     end
   end
 
